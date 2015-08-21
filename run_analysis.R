@@ -59,7 +59,9 @@ write.table(recast_data,"tidy_data.txt",row.names=FALSE)
 
 ## Codebook generation
 # Further process the variable names, using gsub to generate complete sentence
-# descriptions of each variable based on variable names.
+# descriptions of each variable based on variable names. File generated is 
+# codebook_basis.md, which is then cleaned up a bit and saved as codebook.md in 
+# repo.
 descrip<- new_names
 explanation <- descrip
 explanation <-gsub("BodyBody","Body",explanation)
@@ -78,5 +80,5 @@ explanation <- gsub("Magnitude-std", "magnitude standard deviation.", explanatio
 explanation <- gsub("-std-X","standard deviation in the X direction.",explanation, fixed=T)
 explanation <- gsub("-std-Y","standard deviation in the Y direction.",explanation, fixed=T)
 explanation <- gsub("-std-Z","standard deviation in the Z direction.",explanation, fixed=T)
-codebook <- paste("* ",descrip,"\n",explanation,"\n")
+codebook <- paste("* ",descrip,"\n\n",explanation,"\n")
 write.table(codebook, "codebook_basis.md", quote = FALSE, row.names = FALSE, col.names = FALSE)
