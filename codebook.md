@@ -4,7 +4,8 @@
 As stated in the README accompanying the original data, the value of all variables are normalized and bounded within [-1,1].
 
 *  Subject 
- Subject 
+
+ Subject (30 subjects in trial)
 
 *  Activity 
  Activity 
