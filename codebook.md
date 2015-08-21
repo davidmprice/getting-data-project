@@ -2,7 +2,7 @@
 ### David Price
 ### August 21, 2015
 
-The data for which this is a codebook comes from the "Human Activity Recognition Using Smartphones Dataset" (Reyes-Ortiz et al.). 
+The data for which this is a codebook comes from the "Human Activity Recognition Using Smartphones" Dataset (Reyes-Ortiz et al. available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
 
 Frome the README of the original data set: 
 
@@ -11,9 +11,10 @@ Frome the README of the original data set:
 >The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
 As stated above, for each time window, numerous features were computed from raw data, but this project
-concerns itself only with the mean and standard deviation of certain measurements within each time window. For each subject and each activity the average of each average or standard deviation measurement is given in data set submitted for this project. 
+concerns itself only with the mean and standard deviation of certain measurements within each time window. For each subject and each activity the average of each average or standard deviation measurement is given in the data set submitted for this project. 
 
 As stated in the README accompanying the original data, the value of all variables are normalized and bounded within [-1,1].
+
 *  Subject (30 subjects in trial).
 
  Subject 
