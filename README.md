@@ -1,5 +1,6 @@
 # getting-data-project
-The is the repo for the course project on Getting and Cleaning Data.
+The is the repo for the course project on Getting and Cleaning Data. Thanks as always
+to the CTAs and fellow students whose comments make the forums such a helpful resource.
 
 Here is an outline of how the run_analysis.R file takes the raw data and makes it tidy. 
 More detail is included in the comments of the run_analysis.R file. The Steps correspond
